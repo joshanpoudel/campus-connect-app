@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Home.dart';
+import 'Information.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'My Flutter App',
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: Home()
+      home: Information()
     );
   }
   }

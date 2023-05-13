@@ -29,8 +29,9 @@ class Home extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+
                     Text("Profile"),
-                    Icon(Icons.supervised_user_circle,  size: 50, textDirection: TextDirection.ltr),
+                    Icon(Icons.supervised_user_circle,  size: 50, textDirection: TextDirection.ltr, ),
 
 
                   ],
@@ -50,7 +51,7 @@ class Home extends StatelessWidget {
                   //onPrimary: Colors.black87,
                   //elevation: 15,
                   shadowColor: Colors.yellow,
-                  //side: BorderSide(color: Colors.black87,width: 2 ),
+                  side: BorderSide(color: Colors.black87,width: 2 ),
                   //alignment: Alignment.topleft,
                   shape: StadiumBorder()
 
@@ -78,11 +79,11 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(20.0),
                     fixedSize: Size(300, 80),
                     textStyle: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-                    // primary: Colors.yellow,
-                    //onPrimary: Colors.black87,
+                   //  primary: Colors.yellow,
+                   // onPrimary: Colors.black87,
                     //elevation: 15,
-                    shadowColor: Colors.yellow,
-                    //side: BorderSide(color: Colors.black87,width: 2 ),
+                    //shadowColor: Colors.yellow,
+                    side: BorderSide(color: Colors.black87,width: 2 ),
                     //alignment: Alignment.topleft,
                     shape: StadiumBorder()
 
@@ -95,6 +96,11 @@ class Home extends StatelessWidget {
                   children: [
                     Text("Grade"),
                     Icon(Icons.percent,  size: 50, textDirection: TextDirection.ltr),
+
+
+
+
+
 
 
                   ],
@@ -114,7 +120,7 @@ class Home extends StatelessWidget {
                     //onPrimary: Colors.black87,
                     //elevation: 15,
                     shadowColor: Colors.yellow,
-                    //side: BorderSide(color: Colors.black87,width: 2 ),
+                    side: BorderSide(color: Colors.black87,width: 2 ),
                     //alignment: Alignment.topleft,
                     shape: StadiumBorder()
 
